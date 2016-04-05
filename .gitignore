@@ -1,4 +1,6 @@
 # Ignorar todos os diretórios e arquivos em um diretório.
 .metadata/
-.metadata/**/* 
+.recommenders/
+.metadata/**/*
+.recommenders/**/* 
 RemoteSystemsTempFiles/
