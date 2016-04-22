@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Agenda Web</title>
+		<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:regular,bold' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="Stylesheet" />
+	</head>
+	
+	<body>
+		<wicket:extend>
+			<h1 wicket:id="titulo">[Mensagem de título do Form]</h1>
+			
+			<form wicket:id="formularioContato" name="formularioContato">
+				<input wicket:id="nome" 	type="text" placeholder="Nome e Sobrenome"/>
+				<br/>
+				<input wicket:id="email" 	type="text" placeholder="E-mail"/>
+				<br/>
+				<input wicket:id="telefone" type="text" placeholder="Celular"/>
+				<br/>
+				<button type="submit" name="submit" >Salvar</button>
+			</form>
+		</wicket:extend>
+	</body>
+</html>

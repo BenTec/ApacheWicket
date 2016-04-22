@@ -50,5 +50,9 @@ public class Contato  implements Serializable{
 	}
 	
 	
-	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Nome: "+this.nome+"\n"+"E-mail: "+this.email+"\n"+"Telefon: "+this.telefone;
+	}
 }
